@@ -33,7 +33,7 @@ Steps taken:
 16- Get the R squared.
 18- Get the closing price of the last 60 days and convert the dataframe to an array and scale it between 0 and 1.
 19- Append the data into the x_test and reshape it. 
-20- Predict the price using model.predict and then undo the scaling.
+20- Predict the price using model.predict and then undo the scaling. We print the predicted value and the initial value to compare them.
 
 
 
