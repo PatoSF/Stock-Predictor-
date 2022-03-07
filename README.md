@@ -20,4 +20,20 @@ Steps taken:
    y_train: This is your dependent variable which needs to be predicted by this model, this includes category labels against your independent variables, we need to specify our        dependent variable while training/fitting the model.
    x_test: The remaining portion of the independent variables from the data which will not be used in the training phase and will be used to make predictions to test the accuracy    of the model.
    y_test: The data has category labels for the test data, these labels will be used to test the accuracy between actual and predicted categories.
-6- 
+6- Convert the x_train and y_train to numpy arrays so we can use them to train the the LSTM model.
+7- Make the data (imput) 3 dimentional. we need to input the number of samples (number of rows that we have), number of time steps (number of columns) and number of features (just the closing price).
+8- Build the LSTM model and compile it.
+9- Train the model.
+10- Create the Test set (x_test and y_test).
+11- Convert the data to a numpy array and reshape the data into a 3 dimentional input.
+12- Get the model's predicted price values.
+13- Plot and visualize the data using a line chart.
+14- Show the valid and predicted prices.
+15- Get the RMSE to evaluate the model.
+16- Get the R squared.
+18- Get the closing price of the last 60 days and convert the dataframe to an array and scale it between 0 and 1.
+19- Append the data into the x_test and reshape it. 
+20- Predict the price using model.predict and then undo the scaling.
+
+
+
